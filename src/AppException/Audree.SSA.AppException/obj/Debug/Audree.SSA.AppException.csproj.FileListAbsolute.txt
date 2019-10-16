@@ -1,0 +1,17 @@
+D:\BAckups\SSA10919\src\AppException\Audree.SSA.AppException\bin\Debug\Audree.SSA.AppException.dll
+D:\BAckups\SSA10919\src\AppException\Audree.SSA.AppException\bin\Debug\Audree.SSA.AppException.pdb
+D:\BAckups\SSA10919\src\AppException\Audree.SSA.AppException\obj\Debug\Audree.SSA.AppException.csproj.CoreCompileInputs.cache
+D:\BAckups\SSA10919\src\AppException\Audree.SSA.AppException\obj\Debug\Audree.SSA.AppException.dll
+D:\BAckups\SSA10919\src\AppException\Audree.SSA.AppException\obj\Debug\Audree.SSA.AppException.pdb
+D:\05mADHU\SSA10919\src\AppException\Audree.SSA.AppException\bin\Debug\Audree.SSA.AppException.dll
+D:\05mADHU\SSA10919\src\AppException\Audree.SSA.AppException\bin\Debug\Audree.SSA.AppException.pdb
+D:\05mADHU\SSA10919\src\AppException\Audree.SSA.AppException\obj\Debug\Audree.SSA.AppException.csprojAssemblyReference.cache
+D:\05mADHU\SSA10919\src\AppException\Audree.SSA.AppException\obj\Debug\Audree.SSA.AppException.csproj.CoreCompileInputs.cache
+D:\05mADHU\SSA10919\src\AppException\Audree.SSA.AppException\obj\Debug\Audree.SSA.AppException.dll
+D:\05mADHU\SSA10919\src\AppException\Audree.SSA.AppException\obj\Debug\Audree.SSA.AppException.pdb
+D:\Projects\SSAAPI\src\AppException\Audree.SSA.AppException\bin\Debug\Audree.SSA.AppException.dll
+D:\Projects\SSAAPI\src\AppException\Audree.SSA.AppException\bin\Debug\Audree.SSA.AppException.pdb
+D:\Projects\SSAAPI\src\AppException\Audree.SSA.AppException\obj\Debug\Audree.SSA.AppException.csprojAssemblyReference.cache
+D:\Projects\SSAAPI\src\AppException\Audree.SSA.AppException\obj\Debug\Audree.SSA.AppException.csproj.CoreCompileInputs.cache
+D:\Projects\SSAAPI\src\AppException\Audree.SSA.AppException\obj\Debug\Audree.SSA.AppException.dll
+D:\Projects\SSAAPI\src\AppException\Audree.SSA.AppException\obj\Debug\Audree.SSA.AppException.pdb

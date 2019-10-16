@@ -1,0 +1,16 @@
+D:\Projects\SSA\src\Application\Audree.Ssa.Application\bin\Debug\Audree.Ssa.Application.dll
+D:\Projects\SSA\src\Application\Audree.Ssa.Application\bin\Debug\Audree.Ssa.Application.pdb
+D:\Projects\SSA\src\Application\Audree.Ssa.Application\obj\Debug\Audree.Ssa.Application.csproj.CoreCompileInputs.cache
+D:\Projects\SSA\src\Application\Audree.Ssa.Application\obj\Debug\Audree.Ssa.Application.dll
+D:\Projects\SSA\src\Application\Audree.Ssa.Application\obj\Debug\Audree.Ssa.Application.pdb
+C:\Users\Administrator\Desktop\SSA-16092019\src\Application\Audree.Ssa.Application\bin\Debug\Audree.Ssa.Application.dll
+C:\Users\Administrator\Desktop\SSA-16092019\src\Application\Audree.Ssa.Application\bin\Debug\Audree.Ssa.Application.pdb
+C:\Users\Administrator\Desktop\SSA-16092019\src\Application\Audree.Ssa.Application\obj\Debug\Audree.Ssa.Application.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\SSA-16092019\src\Application\Audree.Ssa.Application\obj\Debug\Audree.Ssa.Application.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\SSA-16092019\src\Application\Audree.Ssa.Application\obj\Debug\Audree.Ssa.Application.dll
+C:\Users\Administrator\Desktop\SSA-16092019\src\Application\Audree.Ssa.Application\obj\Debug\Audree.Ssa.Application.pdb
+D:\SSA-backUp-18-Sept-2019\src\Application\Audree.Ssa.Application\bin\Debug\Audree.Ssa.Application.dll
+D:\SSA-backUp-18-Sept-2019\src\Application\Audree.Ssa.Application\bin\Debug\Audree.Ssa.Application.pdb
+D:\SSA-backUp-18-Sept-2019\src\Application\Audree.Ssa.Application\obj\Debug\Audree.Ssa.Application.csproj.CoreCompileInputs.cache
+D:\SSA-backUp-18-Sept-2019\src\Application\Audree.Ssa.Application\obj\Debug\Audree.Ssa.Application.dll
+D:\SSA-backUp-18-Sept-2019\src\Application\Audree.Ssa.Application\obj\Debug\Audree.Ssa.Application.pdb

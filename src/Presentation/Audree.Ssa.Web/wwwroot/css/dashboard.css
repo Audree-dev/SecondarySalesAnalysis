@@ -1,0 +1,158 @@
+.topNav {
+	background: #0191c8;
+	padding: 0px;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.12), 0 2px 5px 0 rgba(0,0,0,0.10);
+}
+.topNav .nav-link {
+	padding: .3rem 1rem;
+	color: rgba(255,255,255,1) !important
+}
+.navbar-brand {
+	width: 48px;
+	height: 48px;
+	background: #005b9a;
+}
+.navbar-brand .brandIcon {
+	width: 32px;
+	height: 32px;
+	background: url(../images/spriteImg.png) no-repeat;
+	background-position: 0 -32px;
+	display: inline-block;
+	margin: 6px 0 0 8px;
+}
+.dashBoardLogo {
+	width: 220px;
+	height: 24px;
+	text-align: center;
+	line-height: 23px;
+	font-size: 18px;
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 12px;
+	margin: auto;
+	white-space: nowrap;
+}
+.rightDDMenu {
+	margin-right: 8px;
+}
+.rightDDMenu .avatarIcon {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	border-radius: 50%;
+	border: #fff solid 2px;
+	background: url(../images/avatar_profile.png) no-repeat center center;
+	background-size: cover;
+	float: right;
+}
+.rightDDMenu p {
+	margin-bottom: 0px;
+	white-space: nowrap;
+}
+.rightDDMenu::after {
+	border: none;
+}
+.userNameNid {
+	text-align: right;
+	float: right;
+	margin-right: 10px;
+	color: #fff;
+	line-height: 16px;
+}
+.userNameNid span {
+	font-size: 12px;
+}
+.profileDDmenu {
+	background: #296186;
+	border-radius: 0px;
+	right: 15px !important;
+	font-size: 13px;
+	padding: 0px;
+}
+.profileDDmenu::before {
+	position: absolute;
+	content: '';
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid #296186;
+	top: -8px;
+	right: 6px;
+}
+.profileDDmenu a {
+	color: #fff;
+	padding: 7px 15px;
+	border-bottom: #205273 solid 1px;
+}
+.profileDDmenu a:hover {
+	background: #184563;
+	color: #fff;
+}
+.profileDDmenu a .fa {
+	margin-right: 8px;
+}
+.leftMain, .contentMain {
+	transition: all ease 0.3s;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+}
+.leftMain {
+	width: 250px;
+	height: calc(100vh - 48px);
+	position: fixed;
+	background: #495358;
+	top: 48px;
+	z-index: 2;
+	color: #fff;
+	padding: 0px 15px 0 0;
+	overflow: auto;
+	left: 0px;
+}
+input {
+	outline: none;
+}
+.mainTile{
+	display: block;
+	margin-bottom: 16px;
+}
+.mainTile,.mainTile:hover{
+	color: #fff;
+}
+.mainTile .inner{
+	padding: 25px 0;
+	background: #0191c8;
+	text-align: center;
+	position: relative;
+}
+.mainTile .inner .fa{
+	width: 60px;
+	height: 60px;
+	background: rgba(255,255,255,0.3);
+	border-radius: 50%;
+	text-align: center;
+	line-height: 60px;
+	margin: auto;
+	font-size: 32px;
+}
+.mainTile:hover .fa{
+	animation: blinker 0.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;
+}
+
+.mainTile h3{
+	background: #dedfde;
+	color: #545454;
+	padding: 10px 15px;
+	font-size: 14px;
+}
+.mainTile h3 .fa{
+	float: right
+}
+.mainTile .count{
+	position: absolute;
+	right: 25px;
+	top: 15px;
+	font-size: 18px;
+	font-family: 'Open Sans bold';
+}

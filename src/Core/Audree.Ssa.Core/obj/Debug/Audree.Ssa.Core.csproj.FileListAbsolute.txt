@@ -1,0 +1,14 @@
+D:\Projects\SSAAPI\src\Core\Audree.Ssa.Core\bin\Debug\Audree.Ssa.Core.dll
+D:\Projects\SSAAPI\src\Core\Audree.Ssa.Core\bin\Debug\Audree.Ssa.Core.pdb
+D:\Projects\SSAAPI\src\Core\Audree.Ssa.Core\bin\Debug\AutoMapper.dll
+D:\Projects\SSAAPI\src\Core\Audree.Ssa.Core\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Projects\SSAAPI\src\Core\Audree.Ssa.Core\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projects\SSAAPI\src\Core\Audree.Ssa.Core\bin\Debug\AutoMapper.pdb
+D:\Projects\SSAAPI\src\Core\Audree.Ssa.Core\bin\Debug\AutoMapper.xml
+D:\Projects\SSAAPI\src\Core\Audree.Ssa.Core\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.pdb
+D:\Projects\SSAAPI\src\Core\Audree.Ssa.Core\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Projects\SSAAPI\src\Core\Audree.Ssa.Core\obj\Debug\Audree.Ssa.Core.csprojAssemblyReference.cache
+D:\Projects\SSAAPI\src\Core\Audree.Ssa.Core\obj\Debug\Audree.Ssa.Core.csproj.CoreCompileInputs.cache
+D:\Projects\SSAAPI\src\Core\Audree.Ssa.Core\obj\Debug\Audree.Ssa.Core.csproj.CopyComplete
+D:\Projects\SSAAPI\src\Core\Audree.Ssa.Core\obj\Debug\Audree.Ssa.Core.dll
+D:\Projects\SSAAPI\src\Core\Audree.Ssa.Core\obj\Debug\Audree.Ssa.Core.pdb

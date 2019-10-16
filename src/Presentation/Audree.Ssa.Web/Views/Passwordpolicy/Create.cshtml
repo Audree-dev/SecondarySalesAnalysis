@@ -1,0 +1,63 @@
+﻿@model Audree.Ssa.Core.Model.Admin.Passwordpolicy
+
+<h4>Passwordpolicy</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PasswordExpiry" class="control-label"></label>
+                <input asp-for="PasswordExpiry" class="form-control" />
+                <span asp-validation-for="PasswordExpiry" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InvalideAttempts" class="control-label"></label>
+                <input asp-for="InvalideAttempts" class="form-control" />
+                <span asp-validation-for="InvalideAttempts" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MinimumLength" class="control-label"></label>
+                <input asp-for="MinimumLength" class="form-control" />
+                <span asp-validation-for="MinimumLength" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MinimumUpperCaseCharacters" class="control-label"></label>
+                <input asp-for="MinimumUpperCaseCharacters" class="form-control" />
+                <span asp-validation-for="MinimumUpperCaseCharacters" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MinimumLowerCaseCharacters" class="control-label"></label>
+                <input asp-for="MinimumLowerCaseCharacters" class="form-control" />
+                <span asp-validation-for="MinimumLowerCaseCharacters" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MinimumDigits" class="control-label"></label>
+                <input asp-for="MinimumDigits" class="form-control" />
+                <span asp-validation-for="MinimumDigits" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MinimumSpecialCharacters" class="control-label"></label>
+                <input asp-for="MinimumSpecialCharacters" class="form-control" />
+                <span asp-validation-for="MinimumSpecialCharacters" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PasswordExpiryAlertBeforeDays" class="control-label"></label>
+                <input asp-for="PasswordExpiryAlertBeforeDays" class="form-control" />
+                <span asp-validation-for="PasswordExpiryAlertBeforeDays" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EnforcePasswordHistory" class="control-label"></label>
+                <input asp-for="EnforcePasswordHistory" class="form-control" />
+                <span asp-validation-for="EnforcePasswordHistory" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

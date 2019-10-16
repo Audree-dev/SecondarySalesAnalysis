@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model IEnumerable<Audree.Ssa.Core.Model.Master.Menu>
+
+@*@foreach (var item1 in Model.Where(w => w.Controller != "DashBoard").Select(s => s.Profile).Distinct())
+{
+    <div class="col-md-2">
+        <h3>@item1.Description</h3>
+        <ul class="nav flex-column">
+            @foreach (var item in Model.Where(w => w.Controller != "DashBoard" && w.ProfileId == item1.Id && w.Active == true))
+            {
+                <li class="nav-item"> <a class="nav-link" href="@Url.Action(item.Action,item.Controller)">@item.LinkText</a> </li>
+            }
+        </ul>
+    </div>
+
+}*@

@@ -1,0 +1,407 @@
+@font-face {
+	font-family: 'Open Sans Extrabold';
+	src: url('newFonts/Open Sans Extrabold.eot');
+	src: url('newFonts/Open Sans Extrabold.eot?#iefix') format('embedded-opentype'), url('newFonts/Open Sans Extrabold.woff2') format('woff2'), url('newFonts/Open Sans Extrabold.woff') format('woff'), url('newFonts/Open Sans Extrabold.svg#Open Sans Extrabold') format('svg');
+	font-weight: 800;
+	font-style: normal;
+	font-stretch: normal;
+ unicode-range: U+0020-2074;
+}
+@font-face {
+	font-family: 'Open Sans Light';
+	src: url('newFonts/Open Sans Light.eot');
+	src: url('newFonts/Open Sans Light.eot?#iefix') format('embedded-opentype'), url('newFonts/Open Sans Light.woff2') format('woff2'), url('newFonts/Open Sans Light.woff') format('woff'), url('newFonts/Open Sans Light.svg#Open Sans Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+ unicode-range: U+0020-2212;
+}
+@font-face {
+	font-family: 'Open Sans Semibold';
+	src: url('newFonts/Open Sans Semibold.eot');
+	src: url('newFonts/Open Sans Semibold.eot?#iefix') format('embedded-opentype'), url('newFonts/Open Sans Semibold.woff2') format('woff2'), url('newFonts/Open Sans Semibold.woff') format('woff'), url('newFonts/Open Sans Semibold.svg#Open Sans Semibold') format('svg');
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+ unicode-range: U+0020-2074;
+}
+@font-face {
+	font-family: 'Open Sans bold';
+	src: url('newFonts/Open Sans Bold.eot');
+	src: url('newFonts/Open Sans Bold.eot?#iefix') format('embedded-opentype'), url('newFonts/Open Sans Bold.woff2') format('woff2'), url('newFonts/Open Sans Bold.woff') format('woff'), url('newFonts/Open Sans Bold.svg#Open Sans Bold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+ unicode-range: U+0020-2074;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('newFonts/Open Sans.eot');
+	src: url('newFonts/Open Sans.eot?#iefix') format('embedded-opentype'), url('newFonts/Open Sans.woff2') format('woff2'), url('newFonts/Open Sans.woff') format('woff'), url('newFonts/Open Sans.svg#Open Sans') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+ unicode-range: U+0020-2212;
+}
+body {
+	font-size: 13px;
+	font-family: 'Open Sans';
+	background: #fff;
+	color: #000;
+}
+a, .btn, .roundedOlBtn {
+	transition: all ease 0.2s;
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+}
+a:hover {
+	text-decoration: none;
+}
+hr {
+	margin: 0.5rem 0;
+}
+ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+.clear {
+	clear: both;
+}
+.star{
+	font-family: 'Open Sans bold';
+	font-size: 16px;
+	color: red;
+	line-height: 16px;
+}
+.table td, .table th {
+	padding: 0.25rem;
+	font-size: 13px;
+}
+.table-bordered td, .table-bordered th {
+	border: 1px solid #c9cbce;
+}
+.mt10 {
+	margin-top: 10px;
+}
+.mt12 {
+	margin-top: 12px;
+}
+.mt15 {
+	margin-top: 15px;
+}
+.mt22 {
+	margin-top: 22px;
+}
+.mt70 {
+	margin-top: 70px;
+}
+.p12{
+	padding: 12px;
+}
+.minH100vh {
+	min-height: 100vh;
+}
+.minW80 {
+	min-width: 70px;
+}
+.minW100 {
+	min-width: 100px;
+}
+.maxW100 {
+	max-width: 100%;
+}
+.font12 {
+	font-size: 12px !important;
+}
+.font14 {
+	font-size: 14px !important;
+}
+.font16 {
+	font-size: 16px !important;
+}
+.font18 {
+	font-size: 18px !important;
+}
+.font20 {
+	font-size: 20px !important;
+}
+.boldF {
+	font-family: 'Open Sans bold';
+}
+.alert {
+	padding: 4px 12px;
+}
+.btn:focus, .btn.focus, .form-control:focus {
+	box-shadow: none;
+}
+.form-control {
+	font-size: 13px;
+	height: 28px;
+	border-radius: 0px;
+	padding: .3rem .75rem;
+}
+.greenC {
+	color: #57ad68
+}
+.orangeC {
+	color: #ffa900
+}
+.redC {
+	color: #e74c3c
+}
+.bg-primary {
+	background-color: #0191c8!important;
+}
+.grayFont{
+	color: #a1a1a1;
+	display: inline-block;
+	min-width: 120px;
+}
+span.grayFont i{
+	width: 20px;
+	text-align: center;
+}
+.bg-danger {
+	background: #e74c3c!important
+}
+.bg-primary {
+	background-color: #0191c8!important;
+}
+.blueDark{
+	background: #005b9a !important
+}
+.btn-success {
+    color: #fff;
+    background-color: #57ad68;
+    border-color: #619e77;
+}
+/*.collapse:not(.show) {
+    display: none !important;
+}*/
+textarea.form-control {
+	height: auto!important
+}
+select.form-control:not([size]):not([multiple]) {
+	height: calc(26px + 2px);
+	padding-top: 4px;
+}
+.modal-header {
+	padding: 0.8rem 1rem;
+	background: #296186;
+	color: #fff;
+	border-radius: 0px;
+}
+.modal-content {
+	background: none;
+}
+.modal-body, .modal-footer {
+	background: #fff;
+	border-radius: 0px;
+}
+.modal-header .close {
+	color: #fff;
+	opacity: 1;
+	text-shadow: none;
+	font-size: 18px;
+	padding: 0px;
+	width: 32px;
+	height: 32px;
+	margin-top: -7px;
+}
+.modal-title {
+	font-size: 14px;
+}
+.brNone {
+	border-radius: 0px;
+}
+.hidden {
+	display: none;
+}
+.roundedOlBtn:hover {
+	background: #33a1a0;
+	border: #33a1a0 solid 2px;
+	color: #fff;
+	cursor: pointer;
+}
+.btn-info {
+	background-color: #33a1a0;
+	border-color: #33a1a0;
+}
+.btn-warning {
+	color: #fff;
+	background-color: #dd9042;
+	border-color: #d4883b;
+}
+.btn-warning:hover, .btn-warning:focus {
+	color: #fff;
+}
+.xsBtn {
+	padding: 0px 7px;
+	font-size: 12px;
+}
+.btn-sm{
+	height: 28px;
+	padding: .15rem .5rem;
+}
+.form-group {
+	margin-bottom: 0.6rem;
+}
+label {
+	margin-bottom: 0.2rem;
+}
+.disPlayDes{
+	background: #e3e3e3;
+    padding: 6px 10px;
+	margin: 5px 0px 10px 0px;
+}
+.row {
+	margin-right: -8px;
+	margin-left: -8px;
+}
+.row .col, .row [class*="col-"] {
+	padding-right: 8px;
+	padding-left: 8px;
+}
+.breadcrumb {
+	padding: 15px 0;
+	background: none;
+	margin-bottom: 0px;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	position: relative;
+	width: 100%;
+}
+.rightBtn {
+	position: absolute;
+	right: 0px;
+	top: 11px;
+}
+.table thead th {
+	background: #848484;
+	color: #fff;
+	border: #a2a2a2 solid 1px;
+	font-weight: normal;
+}
+.whiteCard {
+	background: #fff;
+	border: #ccc solid 1px;
+}
+.titleHeadding {
+	background: #0191c8;
+	color: #fff;
+	font-size: 13px;
+	margin: 0px;
+	padding: 7px 12px;
+}
+.smallHeading {
+	font-size: 16px;
+	font-family: 'Open Sans Semibold';
+}
+.scrollCon {
+	height: 310px;
+	overflow: auto;
+	margin-bottom: 15px;
+}
+.ssBtn {
+	line-height: 18px;
+	font-size: 12px;
+	position: absolute;
+	right: 40px;
+	top: 7px;
+}
+.nav-tabs{
+	border: none;
+}
+.nav-tabs .nav-link{
+	background: #7d7d7d;
+	border-radius: 0px;
+	margin-right: 5px;
+	color: #fff
+}
+.nav-tabs .nav-link.active{
+	background: #e19129;
+    border: #e19129 solid 1px;
+	color: #fff
+}
+.nav-tabs .nav-item:last-child .nav-link{
+	margin-right: 0px;
+}
+.bg1{
+	background: #57ad68 !important;
+}
+.bg2{
+	background: #22bbea !important;
+}
+.bg4{
+	background: #005b9a !important;
+}
+.bg3{
+	background: #0191c8 !important;
+}
+.bg5{
+	background: #e74c3c !important;
+}
+.bg6{
+	background: #ffa900 !important;
+}
+.tooltip > .tooltip-inner {background-color: #000; font-size: 12px; width: 100%;}
+.tooltip > .tooltip-arrow { border-bottom-color:#000; }
+.tooltip > .tooltip-inner p{
+	margin: 0px 0px 5px 0px;
+	line-height: 16px;
+}
+.notify {
+    background: #ffa900;
+    min-width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    top: -7px;
+    text-align: center;
+    line-height: 20px;
+    right: -6px;
+    border-radius: 50%;
+}
+.slTable th{
+	white-space: nowrap;
+}
+.modal.right .modal-dialog {
+	position: fixed;
+	margin: auto;
+	width: 320px;
+	height: 100%;
+	-webkit-transform: translate3d(0%, 0, 0);
+	-ms-transform: translate3d(0%, 0, 0);
+	-o-transform: translate3d(0%, 0, 0);
+	transform: translate3d(0%, 0, 0);
+}
+.modal.right.invoiceModal .modal-dialog {
+	width: 960px !important;
+	max-width: inherit;
+}
+
+.modal.right .modal-content {
+	height: 100%;
+	overflow-y: auto;
+	border-radius: 0px;
+}
+
+.modal.right .modal-body {
+	padding: 15px 15px 80px;
+}
+.modal.right.fade.invoiceModal .modal-dialog {
+	right: -960px;
+}
+.modal.right.fade .modal-dialog {
+	right: -320px;
+	/*-webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+	-moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+	-o-transition: opacity 0.3s linear, right 0.3s ease-out;
+	transition: opacity 0.3s linear, right 0.3s ease-out;*/
+}
+
+.modal.right.fade.show .modal-dialog {
+	right: 0;
+}

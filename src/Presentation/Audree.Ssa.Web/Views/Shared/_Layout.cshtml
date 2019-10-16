@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SSA</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+        <link rel="stylesheet" href="~/css/dashboard.css" />
+        <link rel="stylesheet" href="~/css/common.css" />
+        <link rel="stylesheet" href="~/css/style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
+              crossorigin="anonymous"
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" />
+    </environment>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand navbar-dark topNav fixed-top">
+            <span class="dashBoardLogo">Secondary Sales Analysis</span> <a class="navbar-brand" href="#"><span class="brandIcon"></span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-bell"></span></a> </li>
+                    <li class="nav-item mobDisNone"> <a class="nav-link" href="dashboard.html"><span class="fa fa-home"></span></a> </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="fa fa-th-large"></span> </a>
+                        <div class="dropdown-menu megaMenuMain" aria-labelledby="navbarDropdown">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h3>Create/Edit Masters</h3>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item"> <a class="nav-link" href="#!">Create User</a> </li>
+                                            <li class="nav-item"> <a class="nav-link" href="material.html">Material</a> </li>
+                                            <li class="nav-item"> <a class="nav-link" href="UOM.html">UOM</a> </li>
+                                            <li class="nav-item"> <a class="nav-link" href="currency.html">Currency</a> </li>
+                                            <li class="nav-item"> <a class="nav-link" href="customer.html">Customer</a> </li>
+                                            <li class="nav-item"> <a class="nav-link" href="@Url.Action("Index","Country")">Country/region</a> </li>
+                                            <li class="nav-item"> <a class="nav-link" href="rejection.html">Reason for rejection</a> </li>
+                                            <li class="nav-item"> <a class="nav-link" href="supplier.html">Supplier code/name</a> </li>
+                                            <li class="nav-item"> <a class="nav-link" href="strength.html">Strength</a> </li>
+                                            <li class="nav-item"> <a class="nav-link" href="packSize.html">Pack size</a> </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <h3>Admin</h3>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item"> <a class="nav-link" href="passPolicy.html">Password policy</a> </li>
+                                            <li class="nav-item"> <a class="nav-link" href="userControl.html">User Control</a> </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <h3>Reports</h3>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item"> <a class="nav-link" href="#!">Audit Trail</a> </li>
+                                            <li class="nav-item"> <a class="nav-link" href="#!">Report</a> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  /.container  -->
+
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav my-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle rightDDMenu clearfix" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="avatarIcon"></span>
+                            <div class="userNameNid">
+                                <p>Chandu Adimulam</p>
+                                <span>100077</span>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right profileDDmenu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="profile.html"><span class="fa fa-user-circle"></span> Profile</a> <a class="dropdown-item" href="changePassword.html"><span class="fa fa-lock"></span> Change Password</a> <a class="dropdown-item" href="index.html"><span class="fa fa-power-off"></span> Logout</a> </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <partial name="_CookieConsentPartial" />
+        <main role="main" class="pb-3" style="margin-top:6%;">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2019 - SSA - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o">
+        </script>
+    </environment>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
